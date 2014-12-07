@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>理财树：用户注册</title>
+	<title>理财树：账户管理</title>
 	<link rel="stylesheet" type="text/css" href="../css/main.css" />
 	<style type="text/css">
 		.demo{width:400px; margin:40px auto 0 auto; min-height:250px;}
@@ -22,5 +22,14 @@
 		echo '<a href="login.php">Log in</a>';
 	}
 ?>
+<h2>理财树：账户管理</h2>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+<div>
+	<input type="hidden" name="MAX_FILE_SIZE" value="4194304"/>
+	<label for="userfile">请上传你的身份证复印件</label>
+	<input type="file" name="idFile" id="idFile"/>
+	<input type="submit" value="上传"/>
+</div>
+</form>
 </body>
 </html>

@@ -9,7 +9,7 @@ create table tb_registers
 	id    	int	unsigned 	not null 	auto_increment primary key,
 	username		char(50) 		not null,
 	email 			char(100)		not null,
-	password 		char(30)		not null,
+	password 		char(32)		not null,
 	token				char(32)		not null,
 	token_exptime int				not null,
 	regtime			  int 			not null,

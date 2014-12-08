@@ -26,8 +26,9 @@
 <form action="upload.php" method="post" enctype="multipart/form-data">
 <div>
 	<input type="hidden" name="MAX_FILE_SIZE" value="4194304"/>
-	<label for="userfile">请上传你的身份证复印件</label>
+	<label for="idFile">请上传你的身份证复印件</label>
 	<input type="file" name="idFile" id="idFile"/>
+	<br/>
 	<input type="submit" value="上传"/>
 </div>
 </form>

@@ -1,5 +1,5 @@
 <?php
-	$host="localhost";
+	$host="127.0.0.1";
 	$db_user="bookmgr";//用户名
 	$db_pass="wa1234#1";//密码
 	$db_name="panda_dbase";//数据库
